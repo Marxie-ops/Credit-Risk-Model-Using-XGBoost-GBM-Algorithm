@@ -1,5 +1,7 @@
-##Report on Credit Approval Dataset Analysis and Classification
-#Introduction
+Report on Credit Approval Dataset Analysis and Classification
+
+Introduction
+
 This report details the analysis and classification of the Credit Approval dataset, sourced from the UCI Machine Learning Repository. 
 The goal is to predict whether a credit application will be approved based on various financial and personal features of the applicants. 
 The report includes data preprocessing, exploratory data analysis, model training, and evaluation.

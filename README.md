@@ -32,3 +32,14 @@ A grid search was performed to identify the best hyperparameters, optimizing for
 
 **Model Evaluation**
 The best model was evaluated on the test set using confusion matrix and classification report, providing insights into its performance.
+
+# **Overall Assessment:**
+## **Confusion Matrix:*
+
+The confusion matrix shows the following counts: True Negatives (TN): 47 False Positives (FP): 8 False Negatives (FN): 13 True Positives (TP): 63 This indicates that out of 131 predictions: The model correctly identified 47 instances of the negative class (0) and 63 instances of the positive class (1). However, it misclassified 8 negative instances as positive and 13 positive instances as negative.
+
+## **Classification Report:**
+The report reveals: Precision for class 0: 0.78, and for class 1: 0.89 Recall for class 0: 0.85, and for class 1: 0.83 F1-Score: 0.82 for class 0 and 0.86 for class 1 The model has a good balance between precision and recall, especially for class 1, where it excels in correctly identifying positive instances while maintaining a low rate of false positives. The overall accuracy of 84% suggests that the model performs well, making it reliable for classification tasks.
+
+# **ROC AUC Score:**
+A ROC AUC score of 0.9194 indicates excellent discrimination ability between classes. This score demonstrates that the

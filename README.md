@@ -7,10 +7,10 @@ The goal is to predict whether a credit application will be approved based on va
 The report includes data preprocessing, exploratory data analysis, model training, and evaluation.
 The dataset comprises features related to credit applicants, including demographic information and financial indicators. The following steps were taken:
 
--Data Retrieval: The dataset was fetched using the fetch_ucirepo function from the ucimlrepo library.
--Data Preparation: The dataset was converted into Pandas DataFrames for analysis.
--Handling Missing Values: Rows with missing values were dropped from the DataFrame to ensure a complete dataset for analysis.
--Encoding Categorical Variables: Categorical features were transformed into numerical format using one-hot encoding.
+**Data Retrieval:** The dataset was fetched using the fetch_ucirepo function from the ucimlrepo library.
+**Data Preparation:** The dataset was converted into Pandas DataFrames for analysis.
+**Handling Missing Values:** Rows with missing values were dropped from the DataFrame to ensure a complete dataset for analysis.
+**Encoding Categorical Variables:** Categorical features were transformed into numerical format using one-hot encoding.
 
 ## Exploratory Data Analysis (EDA)
 **Distribution of Numerical Features**
